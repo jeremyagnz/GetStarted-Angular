@@ -16,6 +16,7 @@ import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { RouterModule } from '@angular/router';
 import { HeroeComponent } from './components/heroe/heroe.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { HeroeComponent } from './components/heroe/heroe.component';
     RouterModule.forRoot(APP_ROUTES),
     BrowserModule,
     CommonModule,
+    FormsModule,
   ],
   schemas: [ ],
   providers: [

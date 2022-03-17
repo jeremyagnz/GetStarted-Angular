@@ -20,9 +20,9 @@
                 </li>
             </ul>
 
-            <form class="d-flex ">
-                <input class="form-control me-2 " type="search " placeholder="Search " aria-label="Search ">
-                <button class="btn btn-outline-primary " type="submit ">Search</button>
+            <form class="d-flex">
+                <input #buscarTexto class="form-control me-2 " type="text " placeholder="Buscar heroe " (keyup.enter)="buscarHeroe(buscarTexto.value) ">
+                <button class=" btn btn-outline-primary " type="button ">Buscar</button>
             </form>
 
         </div>
